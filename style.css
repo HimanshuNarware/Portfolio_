@@ -14,6 +14,12 @@ border-radius: 10px;
 ::-webkit-scrollbar-track{
     background-color: transparent;
 }
+.highlight{
+    color: rgb(223, 9, 66);
+}
+.green{
+    color: rgb(26, 138, 48);
+}
 
 .active{
     display:flex !important;
@@ -55,19 +61,19 @@ h1 .color{
 }
 
 .borderGreen{
-border: 1.2px solid green;
+border: 1.2px solid rgb(144, 231, 21);
 border-radius: 5px;
 padding: 0px 4px 4px 4px;
 line-height: 1;
 }
 .borderBlue{
- border: 1.2px solid rgb(12, 12, 159);   
+ border: 1.2px solid rgb(92, 9, 224);   
  border-radius: 5px;
 padding: 0px 4px 4px 4px;
 line-height: 1;
 }
 .borderPurpule{
-border: 1.2px solid purple;
+border: 1.2px solid rgb(245, 19, 136);
 border-radius: 5px;
 padding: 0px 4px 4px 4px;
 line-height: 1;
@@ -109,10 +115,13 @@ line-height: 1;
     font-size: 1.1em;
 }
 .education-active{
-    outline: thick double purple;
+    /* outline: .2px double purple; */
     transition: 1s;
-    border: 1px solid white;
+    /* border: 1px solid rgba(255, 255, 255, 0.185); */
+border-radius: 15px;
     color: gray;
+    background:linear-gradient(89deg,rgba(61, 61, 179, 0.532), rgba(2, 8, 37, 0.121));
+    box-shadow:  2px 2px 9px rgb(93, 55, 248);
 }
 
 /* experience section */
