@@ -120,8 +120,8 @@ line-height: 1;
     /* border: 1px solid rgba(255, 255, 255, 0.185); */
 border-radius: 15px;
     color: gray;
-    background:linear-gradient(89deg,rgba(61, 61, 179, 0.532), rgba(2, 8, 37, 0.121));
-    box-shadow:  2px 2px 9px rgb(93, 55, 248);
+    background:linear-gradient(89deg,rgba(61, 61, 179, 0.08), rgba(2, 8, 37, 0.121));
+    box-shadow:  .5px .5px 5px rgba(94, 55, 248, 0.425);
 }
 
 /* experience section */
